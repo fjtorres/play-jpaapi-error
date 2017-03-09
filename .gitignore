@@ -1,0 +1,35 @@
+# general
+*~
+*.log
+tmp
+dump
+
+# IDE
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+
+# SBT
+dist
+project/boot
+project/target
+project/plugins/target
+project/.sbtserver
+project/.sbtserver.lock
+project/play-fork-run.sbt
+project/sbt-ui.sbt
+target
+.target
+
+# Play
+logs
+RUNNING_PID
+/bin/
+.cache-main
+.cache-tests
+
+# Application local folders
+
+/documents/
